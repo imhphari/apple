@@ -1,0 +1,18 @@
+/* CSS Document */
+
+.collapse .navbar-collapse .logdet{
+	justify-content: flex-end!important;
+	
+}
+
+.navbar{
+	background:  transparent;
+	
+}
+
+
+
+#home{
+	background: url(pics/header.jpeg);
+	
+}
