@@ -16,7 +16,7 @@
 	<!-- A grey horizontal navbar that becomes vertical on small screens -->
 <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
   <!-- Brand -->
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#">Boat 'n' Bose</a>
 
   <!-- Toggler/collapsibe Button -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -27,16 +27,35 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Orders</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Today's Deals</a>
       </li> 
+		
+		<!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Categories
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">On-Ear</a>
+        <a class="dropdown-item" href="#">Overhead</a>
+        <a class="dropdown-item" href="#">Wired</a>
+		<a class="dropdown-item" href="#">Wireless</a>
+		  
+      </div>
+    </li>
     </ul>
-  </div> 
+   </div> 
+	<form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-primary" type="submit">Search</button>
+  </form>
+  
 </nav>
 	
 	
