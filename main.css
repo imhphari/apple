@@ -1,18 +1,151 @@
 /* CSS Document */
+/*NAVBAR*/
 
-.collapse .navbar-collapse .logdet{
-	justify-content: flex-end!important;
+.nav-item a{
+	color: white!important;
+}	
+
+#mainNav{
+	
+	background-color: black;
+	opacity: 0.8;
+}
+
+header.masthead {
+    text-align: center;
+    color: white;
+    /*background-color: white !important;
+    border-style: solid;
+    border-color: none;*/
+    background: url("pics/steve.jpg");
+    height: 100vh !important;
+    margin-top: 0 !important;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    header {
+        width: 100%;
+		
+		
+    }
+}
+#watch .container-fluid{
+	background-color: white;
+}
+
+.iw-about{
+	background: url("https://www.apple.com/newsroom/images/product/watch/standard/apple-watch-series4_watch-front-training_09122018_big.jpg.large.jpg");
+	
+	height: 100vh !important;
+    margin-top: 0 !important;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+@media (max-width: 768px) {
+    .iw-about {
+        width: 100%;
+		margin-left: 20%;
+		
+		
+    }
+}
+.iw-pic{
+	color:black;
+	margin-top: 05%;
+}
+
+
+#xr .container-fluid{
+	background-color: black;
+}
+
+.xr-about{
+	background: url("https://www.apple.com/newsroom/videos/iphone-xr-/posters/iPhone_XR-cc-us-_321x571.jpg.large.jpg");
+	height: 100vh !important;
+    margin-top: 0 !important;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.xr-pic{
+	color:white;
+	margin-top: 05%;
+}
+
+#mac .container-fluid{
+	background-color: white;
+}
+
+.mac-about{
+	background: url("https://cdn.shopify.com/s/files/1/0067/4735/7299/products/mbp13-silver-gallery2-201807_700x700.jpg?v=1531518480");
+	
+	height: 100vh !important;
+    margin-top: 0 !important;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+@media (max-width: 768px) {
+    .iw-about {
+        width: 100%;
+		margin-left: 20%;
+		
+		
+    }
+}
+.mac-pic{
+	color:black;
+	margin-top: 05%;
+}
+
+#xs .container-fluid{
+	background-color: black;
+}
+.xs-about{
+	background: url("https://cdn.cultofmac.com/wp-content/uploads/2018/09/1-iPhone-Xs-and-iPhone-Xs-Max.jpg.large_2x-780x975.jpg");
+	height: 100vh !important;
+    margin-top: 0 !important;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.xs-pic{
+	color:white;
+	margin-top: 05%;
+}
+
+#foot{
+	background-color: white;
+	color:black;
+	height: 20px;
+	min-height: 40px;
 	
 }
 
-.navbar{
-	background:  transparent;
-	
-}
 
-
-
-#home{
-	background: url(pics/header.jpeg);
-	
-}
